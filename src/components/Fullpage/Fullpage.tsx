@@ -229,7 +229,7 @@ const DivSection2 = styled.div`
     [data-anchor="slide1"]{
         .willcontinuate{
             width:100%;
-            height:70vh;
+            height:60vh;
         }
         .vanish{
             display:none;
@@ -239,7 +239,7 @@ const DivSection2 = styled.div`
         display:table;
         img{
             width:100%;
-            height:70vh;
+            height:60vh;
         }
     }
     
@@ -247,7 +247,7 @@ const DivSection2 = styled.div`
         display:table;
         img{
             width:100%;
-            height:70vh;
+            height:60vh;
         }
     }
     
