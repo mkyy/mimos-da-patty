@@ -187,7 +187,7 @@ img{
 
 @media (max-width:425px){
     img{
-        height:150px;
+        height:160px;
         max-width:300px;
         margin:30px;
     }
@@ -228,7 +228,7 @@ const DivSection2 = styled.div`
     [data-anchor="slide1"]{
         .willcontinuate{
             width:100%;
-            height:75vh;
+            height:70vh;
         }
         .vanish{
             display:none;
@@ -238,7 +238,7 @@ const DivSection2 = styled.div`
         display:table;
         img{
             width:100%;
-            height:75vh;
+            height:70vh;
         }
     }
     
@@ -246,7 +246,7 @@ const DivSection2 = styled.div`
         display:table;
         img{
             width:100%;
-            height:75vh;
+            height:70vh;
         }
     }
     
@@ -285,7 +285,7 @@ img{
     }
 
     img{
-        width:70%;
+        width:80%;
         position:absolute;
         right:0;
         bottom:0;
