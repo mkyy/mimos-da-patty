@@ -26,7 +26,8 @@ export const Fullpage = () => {
         
         navigation={true}
         navigationPosition={'right'}
-        autoScrolling={false}
+        autoScrolling={true}
+        slidesNavigation={true}
         dragAndMove={'fingersonly'}
         verticalCentered={true}
         licenseKey={"YOUR_LICENSE_KEY"}
