@@ -102,10 +102,8 @@ export const Fullpage = () => {
                 
                 <div className="section">
                 <SlideContact>
-                    <h1>Contato</h1>
-                    <p>//endereço
-                    //facebok
-                    </p>
+                    <h1>Entre em contato</h1>
+                    
                     <a className='insta-button' href="https://www.instagram.com/mimosdapatt/"><img src="assets/instalogo.png" alt="" /></a>
                     <a className="wp-button" href="https://api.whatsapp.com/send?1=pt_Br&phone=5531993873754">Entre em contato pelo WhatsApp</a>
 
@@ -286,7 +284,7 @@ img{
     }
 
     img{
-        width:80%;
+        width:85%;
         position:absolute;
         right:0;
         bottom:0;
@@ -298,6 +296,8 @@ const SlideContact = styled.div`
 display:flex;
 flex-direction:column;
 align-items:center;
+justify-content:space-around;
+height:80vh;
 
 .insta-button img{
     width:200px;
@@ -315,6 +315,7 @@ padding:10px;
 font-size:1rem;
 border:1px solid #000;
 background-color:rgba(0,0,0,0);
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 transition: .4s;
 &:hover{
     color:#333;
