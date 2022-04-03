@@ -102,8 +102,12 @@ export const Fullpage = () => {
                 
                 <div className="section">
                 <SlideContact>
-                    <h1>Entre em contato</h1>
                     
+                    <h1>Entre em contato</h1>
+                    <div>
+                    <h3>Endereço:</h3>
+                    <p>Rua Pau Brasil, 94, Vale Verde</p>
+                    </div>
                     <a className='insta-button' href="https://www.instagram.com/mimosdapatt/"><img src="assets/instalogo.png" alt="" /></a>
                     <a className="wp-button" href="https://api.whatsapp.com/send?1=pt_Br&phone=5531993873754">Entre em contato pelo WhatsApp</a>
 
